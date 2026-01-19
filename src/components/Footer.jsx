@@ -20,12 +20,12 @@ const Footer = () => {
     {
       name: 'R.A.M.N.Ranaweera',
       email: 'malithi.20242105@iit.ac.lk',
-      linkedin: 'www.linkedin.com/in/malithi-nadunika-0a940a353'
+      linkedin: 'https://www.linkedin.com/in/malithi-nadunika-0a940a353'
     },
     {
       name: 'S.Lavan',
       email: 'lavan.20241883@gmail.com',
-      linkedin: 'www.linkedin.com/in/lavan-saravanabavanandan-a14744348'
+      linkedin: 'https://www.linkedin.com/in/lavan-saravanabavanandan-a14744348'
     },
     {
       name: 'Mesandu Gunawardhana',
