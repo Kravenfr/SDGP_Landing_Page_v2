@@ -215,10 +215,10 @@ const Footer = () => {
           <div className="footer-col social-links-col">
             <h4>Follow Us</h4>
             <div className="social-links">
-              <a href="https://instagram.com/yourharmony" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <a href="https://instagram.com/harmonylk.sdgp" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                 <i className="fab fa-instagram"></i>
               </a>
-              <a href="https://linkedin.com/company/yourharmony" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/company/harmony25" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <i className="fab fa-linkedin-in"></i>
               </a>
             </div>
