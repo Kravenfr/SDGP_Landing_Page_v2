@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
 const CTASection = () => {
-    return (
-        <>
-            <style>{`
+  return (
+    <>
+      <style>{`
         .section {
           padding: 100px 0;
           text-align: center;
@@ -41,6 +41,10 @@ const CTASection = () => {
         }
 
         .cta-button {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          text-decoration: none;
           padding: 16px 40px;
           border-radius: 8px;
           font-size: 1.15rem;
@@ -102,15 +106,31 @@ const CTASection = () => {
         }
       `}</style>
 
-            <section id="cta" className="section cta-section" data-aos="fade-up">
-                <div className="container">
-                    <h2>Experience Emotion‑Driven Music</h2>
-                    <p>Your mood. Your music. Automatically. Start your free trial today.</p>
-                    <button className="cta-button secondary-btn">Launch Harmony Today</button>
-                </div>
-            </section>
-        </>
-    );
+      <section id="cta" className="section cta-section" data-aos="fade-up">
+        <div className="container">
+          <h2>Experience Emotion‑Driven Music</h2>
+          <p>
+            Your mood. Your music. Automatically. Start your free trial today.
+          </p>
+
+          {/* External link to Harmony - opens in a new tab */}
+          <a
+            className="cta-button secondary-btn"
+            href="https://kravenfr.github.io/Harmony/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Launch Harmony"
+          >
+            Launch Harmony Today{" "}
+            <i
+              className="fas fa-arrow-right"
+              style={{ marginLeft: "10px" }}
+            ></i>
+          </a>
+        </div>
+      </section>
+    </>
+  );
 };
 
 export default CTASection;

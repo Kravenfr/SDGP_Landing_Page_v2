@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
 const Hero = () => {
-    return (
-        <>
-            <style>{`
+  return (
+    <>
+      <style>{`
         .hero {
           position: relative;
           background: linear-gradient(135deg, #375FFF 0%, #5C7EFF 100%);
@@ -52,6 +52,10 @@ const Hero = () => {
           transition: all 0.3s ease;
           text-transform: uppercase;
           letter-spacing: 0.5px;
+          display: inline-flex;
+          align-items: center;
+          gap: 10px;
+          text-decoration: none;
         }
 
         .primary-btn {
@@ -120,20 +124,28 @@ const Hero = () => {
         }
       `}</style>
 
-            <section className="hero" data-aos="fade-up">
-                <div className="container hero-content">
-                    <h1>A Music Experience that Understands Your **Emotions**</h1>
-                    <p>
-                        Harmony uses real‑time facial emotion and posture detection to recommend the perfect song from Spotify —
-                        automatically and intelligently.
-                    </p>
-                    <button className="cta-button primary-btn">
-                        Try Harmony Now <i className="fas fa-arrow-right"></i>
-                    </button>
-                </div>
-            </section>
-        </>
-    );
+      <section className="hero" data-aos="fade-up">
+        <div className="container hero-content">
+          <h1>A Music Experience that Understands Your **Emotions**</h1>
+          <p>
+            Harmony uses real‑time facial emotion and posture detection to
+            recommend the perfect song from Spotify — automatically and
+            intelligently.
+          </p>
+          <a
+            className="cta-button primary-btn"
+            href="https://kravenfr.github.io/Harmony/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Open Harmony in a new tab"
+          >
+            Try Harmony Now{" "}
+            <i className="fas fa-arrow-right" aria-hidden="true"></i>
+          </a>
+        </div>
+      </section>
+    </>
+  );
 };
 
 export default Hero;
